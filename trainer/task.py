@@ -4,7 +4,7 @@ import tensorflow as tf
 import tensorflow_datasets as tfds
 import argparse
 import hypertune
-NUM_EPOCHS = 10
+NUM_EPOCHS = 100
 def get_args():
   '''Parses args. Must include all hyperparameters you want to tune.'''
   parser = argparse.ArgumentParser()
@@ -62,7 +62,7 @@ def main():
   args = get_args()
   train_data, validation_data = create_dataset()
   model = create_model(args.num_neurons, args.learning_rate, args.momentum)
-  history = model.fit(train_data, epochs=NUM_EPOCHS, validation_data=validation_data)
+  history = model.fit(train_data, epochs=NUM_EPOCHS, replica_count=2, validation_data=validation_data)
   # DEFINE METRIC
   hp_metric = history.history['val_accuracy'][-1]
   hpt = hypertune.HyperTune()
